@@ -1,42 +1,17 @@
 * {
   box-sizing: border-box;
 }
-
+/* COLOR TEXTOS, FONDO, FUENTE TEXTOS */
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
-}
-.comunismo{
-  animation-duration: 3s;
-animation-name: gay;
-animation-iteration-count: infinite;
+  font-family: "Elsie", serif;
+  color: #000000;
+  background-image: url('https://i.pinimg.com/564x/40/6a/a8/406aa8a58a52949467edb6d2477014e9.jpg');
+
+  
 }
 
- .cuadradomorado {
-   width: 800px;
-   height: 200px;
-   background-color: purple;
-
-  animation-duration:10s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
- 
-
-
+/* COLOR barra inicio */
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -45,7 +20,7 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
-  background-color: #eee;
+  background-image: url('https://i.pinimg.com/564x/40/6a/a8/406aa8a58a52949467edb6d2477014e9.jpg');
 }
 
 nav a {
@@ -56,14 +31,15 @@ nav a {
   border: solid 1px #aaa;
   text-align: center;
   text-decoration: none;
-  color: #555;
+  color: #af0000;
 }
+
 
 nav a[aria-current='page'] {
-  color: #000;
-  background-color: #d4d4d4;
+  color: FF5733;
+  background-color: #b9000086;
 }
-
+/* COLOR barra inicio */
 main {
   padding: 1rem;
 }
@@ -71,4 +47,329 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+}
+/* TEXTOS INDIVIDUALES */
+.NUMERO1 {
+  color:#c00000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 470px; /* Ajustar la posición vertical */
+  left: 200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+  text-decoration: underline;
+}
+.pmorado { 
+  color:#330000;
+  
+    position: absolute; /* Posicionar el texto de forma absoluta */
+    top: 500px; /* Ajustar la posición vertical */
+    left: 200px; /* Ajustar la posición horizontal */
+    width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+
+}
+.pverde {
+  color:#330000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 700px; /* Ajustar la posición vertical */
+  left: 1200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+}
+.NUMERO2 {
+  color:#c00000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 650Px; /* Ajustar la posición vertical */
+  left: 1200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+  text-decoration: underline;}
+
+.ptres {
+  color:#330000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 900px; /* Ajustar la posición vertical */
+  left: 200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+}
+.NUMERO3 {
+  color:#c00000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 850Px; /* Ajustar la posición vertical */
+  left: 200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+  text-decoration: underline;}
+.pcuatro {
+  color:#330000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 1100px; /* Ajustar la posición vertical */
+  left: 1200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+}
+.NUMERO4 {
+  color:#c00000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 1050Px; /* Ajustar la posición vertical */
+  left: 1200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+  text-decoration: underline;}
+.pcinco {
+  color:#330000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 1300px; /* Ajustar la posición vertical */
+  left: 200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+}
+.NUMERO5 {
+  color:#c00000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 1250Px; /* Ajustar la posición vertical */
+  left: 200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+  text-decoration: underline;}
+.pseis {
+  color:#330000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 1500px; /* Ajustar la posición vertical */
+  left: 1200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+}
+.NUMERO6 {
+  color:#c00000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 1450Px; /* Ajustar la posición vertical */
+  left: 1200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+  text-decoration: underline;}
+.psiete {
+  color:#330000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 1700px; /* Ajustar la posición vertical */
+  left: 200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+}
+.NUMERO7 {
+  color:#c00000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 1650Px; /* Ajustar la posición vertical */
+  left: 200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+  text-decoration: underline;}
+.pocho {
+  color:#330000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 1900px; /* Ajustar la posición vertical */
+  left: 1200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+}
+.NUMERO8 {
+  color:#c00000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 1850Px; /* Ajustar la posición vertical */
+  left: 1200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+  text-decoration: underline;}
+.pnueve {
+  color:#330000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 2100px; /* Ajustar la posición vertical */
+  left: 200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+}
+.NUMERO9 {
+  color:#c00000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 2050Px; /* Ajustar la posición vertical */
+  left: 200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+  text-decoration: underline;}
+.pdiez {
+  color:#330000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 2300px; /* Ajustar la posición vertical */
+  left: 1200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+}
+.NUMERO10 {
+  color:#c00000;
+  position: absolute; /* Posicionar el texto de forma absoluta */
+  top: 2250Px; /* Ajustar la posición vertical */
+  left: 1200px; /* Ajustar la posición horizontal */
+  width: 300px; /* Ajustar el ancho del área de texto según sea necesario */
+  text-decoration: underline;}
+
+.p-letra {
+  font-family: "Bebas Neue", sans-serif;
+}
+/* fin textos individuales */
+
+/* TEXTO MENU */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+.text {
+  fill: none;
+  stroke-width: 6;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 330;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear;
+}
+
+.text:nth-child(5n + 1) {
+  stroke: #c00000;
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+.text:nth-child(5n + 2) {
+  stroke: #330000;
+  -webkit-animation-delay: -2.4s;
+  animation-delay: -2.4s;
+}
+
+.text:nth-child(5n + 3) {
+  stroke: #7d1e12;
+  -webkit-animation-delay: -3.6s;
+  animation-delay: -3.6s;
+}
+
+.text:nth-child(5n + 4) {
+  stroke: #330000;
+  -webkit-animation-delay: -4.8s;
+  animation-delay: -4.8s;
+}
+
+.text:nth-child(5n + 5) {
+  stroke: #c00000;
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+/*  FIN TEXTO MENU */
+/*  subtitulo */
+
+.subtitulo {
+	
+	display: flex;
+	width: 300px;
+	height: 40px;
+	color: rgb(120, 0, 0);
+	font-size: 40px;
+	line-height: 40px;
+	
+	position: middle;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+ul {
+	list-style: none;
+	padding-left: 10px;
+	animation: cambiar 7s infinite;
+}
+
+ul, p {
+	margin: 0;
+}
+
+@keyframes cambiar {
+	
+	0%{ margin-top: 0;}
+	20%{ margin-top: 0;}
+	
+	25% {margin-top: -40px;}
+	50% {margin-top: -40px;}
+	
+	55% {margin-top: -80px;}
+	80% {margin-top: -80px;}
+	
+	85% {margin-top: -40px;}
+	95% {margin-top: -40px;}
+	
+	100% {margin-top: 0;}
+}
+/*  Fin subtitulo */
+/*  Imagenes */
+.imagen1 {
+  width: 150px; /* Ajusta el ancho de la primera imagen según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  position: absolute; /* Coloca la imagen de forma absoluta */
+  top: 500px; /* Distancia desde la parte superior de la ventana del navegador */
+  left: 20px; /* Distancia desde el lado izquierdo de la ventana del navegador */
+}
+.imagen2 {
+  width: 150px; /* Ajusta el ancho de la primera imagen según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  position: absolute; /* Coloca la imagen de forma absoluta */
+  top: 700px; /* Distancia desde la parte superior de la ventana del navegador */
+  left: 1000px; /* Distancia desde el lado izquierdo de la ventana del navegador */
+}
+
+.imagen3 {
+  width: 150px; /* Ajusta el ancho de la primera imagen según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  position: absolute; /* Coloca la imagen de forma absoluta */
+  top: 900px; /* Distancia desde la parte superior de la ventana del navegador */
+  left: 20px; /* Distancia desde el lado izquierdo de la ventana del navegador */
+}
+.imagen4 {
+  width: 150px; /* Ajusta el ancho de la primera imagen según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  position: absolute; /* Coloca la imagen de forma absoluta */
+  top: 1100px; /* Distancia desde la parte superior de la ventana del navegador */
+  left: 1000px; /* Distancia desde el lado izquierdo de la ventana del navegador */
+}
+.imagen5 {
+  width: 150px; /* Ajusta el ancho de la primera imagen según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  position: absolute; /* Coloca la imagen de forma absoluta */
+  top: 1300px; /* Distancia desde la parte superior de la ventana del navegador */
+  left: 20px; /* Distancia desde el lado izquierdo de la ventana del navegador */
+}
+.imagen6 {
+  width: 150px; /* Ajusta el ancho de la primera imagen según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  position: absolute; /* Coloca la imagen de forma absoluta */
+  top: 1500px; /* Distancia desde la parte superior de la ventana del navegador */
+  left: 1000px; /* Distancia desde el lado izquierdo de la ventana del navegador */
+}
+.imagen7 {
+  width: 150px; /* Ajusta el ancho de la primera imagen según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  position: absolute; /* Coloca la imagen de forma absoluta */
+  top: 1700px; /* Distancia desde la parte superior de la ventana del navegador */
+  left: 20px; /* Distancia desde el lado izquierdo de la ventana del navegador */
+}
+.imagen8 {
+  width: 150px; /* Ajusta el ancho de la primera imagen según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  position: absolute; /* Coloca la imagen de forma absoluta */
+  top: 1900px; /* Distancia desde la parte superior de la ventana del navegador */
+  left: 1000px; /* Distancia desde el lado izquierdo de la ventana del navegador */
+}
+.imagen9 {
+  width: 150px; /* Ajusta el ancho de la primera imagen según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  position: absolute; /* Coloca la imagen de forma absoluta */
+  top: 2100px; /* Distancia desde la parte superior de la ventana del navegador */
+  left: 20px; /* Distancia desde el lado izquierdo de la ventana del navegador */
+}
+.imagen10 {
+  width: 150px; /* Ajusta el ancho de la primera imagen según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  position: absolute; /* Coloca la imagen de forma absoluta */
+  top: 2300px; /* Distancia desde la parte superior de la ventana del navegador */
+  left: 1000px; /* Distancia desde el lado izquierdo de la ventana del navegador */
 }
